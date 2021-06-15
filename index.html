@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<title>Gute Zukunft Bremen</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<section class="header">
+		<nav>
+			<a href="index.html"><img src="images/logos/LOGO1.png" alt="Logo"></a>
+			<div class="nav-links" id="navigationlinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="#About">Über uns</a></li>
+					<li><a href="#Kontakt">Kontakt</a></li>
+				</ul>
+			</div>
+				<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+	<div class="text-box">
+		<h1>Gute Zukunft Bremen</h1>
+		<p>Für eine gute Zukunft</p>
+	</div>
+	</section>
+	
+	<!--	Über uns	-->
+
+	<section class="ueberUns" id="About">
+		<h1>Über uns</h1> 
+		<br>
+		<p>Wir bieten Kultur- und Integrationsprojekte an.</p>
+		<br>
+		<br>
+		<br>
+		<br>
+	</section>	
+
+	<!--	Kontakt		-->
+
+	<section class="kontakt" id="Kontakt">
+		<h1>Kontakt</h1>
+		<div class="contactDiv">
+		<br>
+		<p><strong>Gute Zukunft für Bremer/innen e.V.</strong></p>
+		<p>Breitenbachhof 15</p>
+		<p>28239 Bremen</p>
+		<br>
+		<p>Telefon: +49 163 2852524</p>
+		<br>
+		<p><strong>Vorsitzender</strong></p>
+		<p>Nayim-Addin Hausan</p>
+		<p>Breitenbachhof 15</p>
+		<p>28239 Bremen</p>
+		<br>
+		<p>Telefon: +49 163 2852524</p>
+		</div>
+
+</section>
+
+	<script>
+		var navigationlinks = document.getElementById("navigationlinks");
+		function showMenu(){
+			document.getElementById("navigationlinks").style.display = "block";
+		}
+		function hideMenu(){
+			document.getElementById("navigationlinks").style.display = "none";
+		}
+	</script>
+</body>
+</html>
